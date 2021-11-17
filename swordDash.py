@@ -520,7 +520,7 @@ def update_table(level,time_range,swords,swords2,skips,skips2):
         avgs = list(subsetDF.mean())
         avgDF = pd.DataFrame(data = [avgs],columns = [ycols],index = ['mean'])
         avgDF = avgDF.transpose()
-        avgDF['sword'] = avgDF.index
+        avgDF['sword'] = avgDF.index.to_numpy()
         tables.append(avgDF.to_dict(orient='records'))
     return tables
 
