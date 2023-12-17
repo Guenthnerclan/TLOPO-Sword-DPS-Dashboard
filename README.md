@@ -1,4 +1,4 @@
-# TLOPO-Sword-DPS-Dashboard
+# TLOPO-DPS-Dashboards
 Python and exe files for creating a dashboard to anaylze damage per second on various swords in TLOPO
 
 ## Accessing the Dashboard
